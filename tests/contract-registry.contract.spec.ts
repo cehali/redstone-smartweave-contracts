@@ -1,5 +1,5 @@
-import ContractsTestingEnv from "../tools/ContractsTestingEnv";
-import {ContractsRegistryInput} from "../contracts-registry/types";
+import ContractsTestingEnv from "../src/tools/ContractsTestingEnv";
+import {ContractsRegistryInput} from "../src/contracts-registry/types";
 
 describe("Contracts Registry Contract", () => {
   const contractSrcPath = "./src/contracts-registry/contracts-registry.contract.ts";

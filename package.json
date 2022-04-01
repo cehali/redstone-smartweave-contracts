@@ -24,7 +24,8 @@
   },
   "jest": {
     "preset": "ts-jest",
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "testMatch": [ "**/tests/?(*.)+(spec|test).[jt]s?(x)"]
   },
   "dependencies": {
     "arweave": "^1.10.14",

@@ -1,7 +1,7 @@
-import ContractsTestingEnv from "../tools/ContractsTestingEnv";
-import {ProvidersRegistryInput} from "../providers-registry/types";
-import {ContractsRegistryInput} from "../contracts-registry/types";
-import {registryTxId} from "../common/ContractInteractions";
+import ContractsTestingEnv from "../src/tools/ContractsTestingEnv";
+import {ProvidersRegistryInput} from "../src/providers-registry/types";
+import {ContractsRegistryInput} from "../src/contracts-registry/types";
+import {registryTxId} from "../src/common/ContractInteractions";
 
 const contractSrcPath = "./src/providers-registry/providers-registry.contract.ts";
 const tokenContractSrcPath = "./src/token/token.contract.ts";

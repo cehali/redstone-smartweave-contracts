@@ -1,4 +1,4 @@
-import ContractsTestingEnv from "../tools/ContractsTestingEnv";
+import ContractsTestingEnv from "../src/tools/ContractsTestingEnv";
 
 describe("ContractTestingEnv", () => {
   const contract1 = "./src/examples/example-contract-1.ts";

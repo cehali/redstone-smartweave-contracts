@@ -1,6 +1,6 @@
-import ContractsTestingEnv, {Contract} from "../tools/ContractsTestingEnv";
-import {registryTxId} from "../common/ContractInteractions";
-import {TokenInput} from "../token/types";
+import ContractsTestingEnv, {Contract} from "../src/tools/ContractsTestingEnv";
+import {registryTxId} from "../src/common/ContractInteractions";
+import {TokenInput} from "../src/token/types";
 
 describe("Token Contract", () => {
 
